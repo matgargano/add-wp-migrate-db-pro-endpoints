@@ -7,7 +7,7 @@ class endpoints {
 	private $permission = 'activate_plugins';
 
 	public function init() {
-		$this->permission = apply_filters( 'awmdpe', $this->permission );
+		$this->permission = apply_filters( 'awmdpe_permission', $this->permission );
 		$this->attach_hooks();
 
 	}

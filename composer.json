@@ -1,0 +1,13 @@
+{
+  "name": "matgargano/add-wp-migrate-db-pro-endpoints",
+  "description": "Adds a REST endpoint that allows you to get your WP Migrate DB Pro key",
+  "keywords": ["wordpress"],
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Mat Gargano",
+      "email": "mgargano@gmail.com"
+    }
+  ],
+  "type": "wordpress-plugin"
+}
